@@ -27,6 +27,11 @@
 		-Protected
 	-Encapsulation
 	-Inheritance
+		-Single Inheritance
+		-Multilevel Inheritance
+		-Multiple Inheritance
+		-Hierarchical Inheritance
+		-Hybrid Inheritance
 	-Polymorphism
 	
 	
