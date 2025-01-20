@@ -1,0 +1,21 @@
+1. Comments
+2. Variables
+3. Data Types
+	-int
+	-double
+	-char dsmplr='d';
+	-string
+	-bool
+4.Operators
+	-Arithmatic==>+ - * / %
+	-Assignment =, +=,-=,*=
+	-Comparison ==,!=,>,<,<=
+	-Logical &&, || , !
+5. Conditonal Statements
+	if else
+	switch
+	
+6. Loops
+	-ForLoop
+	-WHile loop==> entry controlled loop
+	-do while==> exit controlled loop
