@@ -3,10 +3,20 @@ using namespace std;
 
 class Vehicle
 {
+private:
+    int a;
+
+protected:
+    int b;
 
 public:
-    Vehicle() { cout << "This is a vehicle \n"; };
-    ~Vehicle(){};
+    Vehicle()
+    {
+        a = 1;
+        b = 2;
+        cout << "This is a vehicle \n";
+    };
+    ~Vehicle() {};
 };
 
 class Car : public Vehicle
@@ -14,6 +24,7 @@ class Car : public Vehicle
 public:
     Car()
     {
+        cout << b;
         cout << "This Vehicle is Car \n";
     }
 };
