@@ -28,3 +28,11 @@
 	-Encapsulation
 	-Inheritance
 	-Polymorphism
+	
+	
+	-Constructor
+		-Default constructor
+		-Parameterized constructor
+		-Copy Constructor
+		-Move Constructor
+	-Destructors
