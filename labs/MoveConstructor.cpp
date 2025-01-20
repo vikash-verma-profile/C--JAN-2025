@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -10,16 +11,32 @@ int* data;
 public:
     //constructor
     Student(int value){
+        data=new int;
+        *data=value;
+        cout<<"Constuctor is called"<<value<<endl;
+    };
 
+    //copy constructor
+    Student(Student& source):Student(*source.data){
+        cout<<"Copy constuctore"<<"Deep copy"<<*source.data<<endl;
     }
+
+    //Move constructor
+    Student(Student&& source):data{source.data}{
+        //Copying the data
+        cout<<"MOve Conctsructor"<<*source.data<<endl;
+        source.data=nullptr;
+    }
+    ~Student(){
+      
+    }
+
 };
 
 int main()
 {
-    Employee emp1;
-    emp1.EmpID=101;
-    cout<<"Employee Id for EMPLOYEE1 is "<<emp1.EmpID<<endl;
-    Employee emp2(emp1);
-    cout<<"Employee Id for EMPLOYEE2 is "<<emp2.EmpID<<endl;
+    vector<Student> students;
+    students.push_back(Student{10});
+     students.push_back(Student{20});
     return 0;
 }
