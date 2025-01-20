@@ -19,3 +19,12 @@
 	-ForLoop
 	-WHile loop==> entry controlled loop
 	-do while==> exit controlled loop
+	
+7.OOPS
+	-Abstraction
+		-Public
+		-Private 
+		-Protected
+	-Encapsulation
+	-Inheritance
+	-Polymorphism
