@@ -1,0 +1,16 @@
+
+	-Inheritance
+		-Single Inheritance
+		-Multilevel Inheritance
+		-Multiple Inheritance
+		-Hierarchical Inheritance
+		-Hybrid Inheritance
+	-Polymorphism
+	
+	
+	-Constructor
+		-Default constructor
+		-Parameterized constructor
+		-Copy Constructor
+		-Move Constructor
+	-Destructors
