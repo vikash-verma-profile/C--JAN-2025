@@ -10,32 +10,51 @@ public:
     }
 };
 
-class Dog:public Animal{
-    public:
-    void sound() override{
-        cout<<"Dog Barks"<<endl;
+class Dog : public Animal
+{
+public:
+    void sound() override
+    {
+        cout << "Dog Barks" << endl;
     }
+    void print();
 };
-class Cat:public Animal{
-    public:
-       void sound() override{
-        cout<<"Car meows"<<endl;
+
+void Dog::print()
+{
+    cout << "I am print method";
+}
+class Cat : public Animal
+{
+public:
+    void sound() override
+    {
+        cout << "Cat meows" << endl;
     }
 };
 
-int  main()
+int main()
 {
 
     Animal *animal;
     Dog dog;
     Cat cat;
-    
-    animal=&dog;
+
+    animal = &dog;
+    animal->sound();
+    cout << "Calling base class" << endl;
+    animal->Animal::sound();
+    // animal->print();
+
+    animal = &cat;
     animal->sound();
 
-    animal=&cat;
-    animal->sound();
-
+    // Animal animal;
+    // Dog dog;
+    // Cat cat;
+    // animal=dog;
+    // animal.sound();
+    // animal.print();
 
     return 0;
 }
