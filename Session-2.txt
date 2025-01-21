@@ -5,6 +5,10 @@
 		-Multiple Inheritance
 		-Hierarchical Inheritance
 		-Hybrid Inheritance
+			--Person ==> base class
+			==> employee and student ==> person ( Hierarchical)
+			
+				TeachingAssitant ==> employee,student (Multiple )
 	-Polymorphism
 	
 	
