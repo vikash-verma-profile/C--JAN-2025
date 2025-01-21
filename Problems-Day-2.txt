@@ -15,3 +15,9 @@ Create a class SHape
 		area of triangele and square
 		
 	use main method to calculate the same
+	
+	==> A teaching assisstent who is both a student and an employee
+	
+	
+	==> Ecommerce==> A user who is both a seller and a buyer 
+	==> HealthCare==> A Person who is both a doctor and a paitent
