@@ -34,9 +34,10 @@ public:
         cin >> c;
     }
 
-    void sum(){
-        int sum=a+b+c;
-        cout<<"Sum is :"<<sum;
+    void sum()
+    {
+        int sum = a + b + c;
+        cout << "Sum is :" << sum;
     }
 };
 
