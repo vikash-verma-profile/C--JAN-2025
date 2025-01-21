@@ -1,0 +1,17 @@
+
+
+Implement Hierarchical Inheritance by using below conditions
+Create a class SHape
+	- name
+	- sides
+	traingle class
+		-base
+		-height
+		*area
+		*details
+	square class
+		-height
+		
+		area of triangele and square
+		
+	use main method to calculate the same
