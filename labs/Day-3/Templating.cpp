@@ -2,7 +2,7 @@
 using namespace std;
 
 template <typename T>
-T myMax(T x, T y)
+T myMax(T x, T y=int)
 {
     return (x > y) ? x : y;
 }
