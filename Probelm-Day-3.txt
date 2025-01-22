@@ -1,0 +1,42 @@
+Create a Mini Library Management System
+
+
+You are required to create a simple C++ program using Object-Oriented Programming (OOP) principles to manage a small library. The program should perform the following tasks:
+
+Define a class Book with the following attributes:
+
+bookID (integer): Unique ID of the book.
+title (string): Title of the book.
+author (string): Author of the book.
+
+
+Implement Member Functions:
+
+A constructor to initialize the book details.
+A function displayDetails() to print the book details.
+
+
+Main Function Tasks:
+
+Create an array of 3 books using the Book class.
+Populate the array with data for three different books (use hardcoded values for simplicity).
+Use a loop to display the details of all the books.
+
+Constraints:
+The program should demonstrate class and object creation.
+The code must include at least one constructor and one member function.
+Use appropriate access modifiers (private/public) to ensure encapsulation.
+
+Example Output:
+
+Book ID: 101
+Title: C++ Programming Basics
+Author: John Doe
+
+Book ID: 102
+Title: Object-Oriented Design
+Author: Jane Smith
+
+Book ID: 103
+Title: Data Structures in C++
+Author: Alice Johnson
