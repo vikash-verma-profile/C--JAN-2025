@@ -19,3 +19,14 @@ Aggregation
 	- Full Ownership
 	- Car has a weel;
 	- strong relationship
+
+
+COntainers
+	-sequence containers Arrays,vectors,deque,lists,forward lists
+	-container adaptors stack,queue,p Queues
+	-Associate Conatiners-> sets maps multisets multimaps
+	-unordered associated containers -> undorded set, undorded  multset,undorded  map,undorded  multmap
+alogrithms
+Iterators input itertaors,output iterators 
+Functors
+
