@@ -1,0 +1,21 @@
+1.is-a Relationship (Inheritance)
+2.Has-A (Association and Aggregation)
+Association
+	- unidirection or bidirectional
+	- Ownership==> no ownership (just associaton)
+	- Car has a Engine
+
+Aggregation
+	-contained object can exist idedepenently
+	- Where an object can exist without other
+	- partial ownership
+	eg. Employee has a department
+	
+
+	
+3.Composition ( HAS- a)
+	- Has a realationship
+	- The contained objeecct are destroyed when the containing objject is alsso destroyed
+	- Full Ownership
+	- Car has a weel;
+	- strong relationship
