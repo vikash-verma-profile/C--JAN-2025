@@ -53,6 +53,7 @@ int main()
     }
 
     outfile << "this is an appended line" << endl;
+    // outfile.write(char*)&emp,sizeof(emp));
     outfile.close();
     cout << "Data is appended successfully";
     return 0;
