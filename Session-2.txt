@@ -27,3 +27,9 @@
 	- unique_ptr
 	- shared_ptr
 	- Weak_ptr
+	
+	S=> Single Responsibility
+	O=>Open/Closed Princple
+	L=> Liskov Subsitute principle
+	I ==>Interface Segregation 
+	D==> Dependency Injection
