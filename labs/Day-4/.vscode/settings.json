@@ -61,6 +61,15 @@
     "ostream": "cpp",
     "fstream": "cpp",
     "numbers": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "charconv": "cpp",
+    "optional": "cpp",
+    "format": "cpp",
+    "system_error": "cpp",
+    "array": "cpp",
+    "functional": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp"
   }
 }
