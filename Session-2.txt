@@ -33,3 +33,27 @@
 	L=> Liskov Subsitute principle
 	I ==>Interface Segregation 
 	D==> Dependency Injection
+	
+	Singleton
+	
+	Creational Design Pattern
+		-Singleton
+		-Factory Method pattern
+		-Abstract factory pattern
+		-Builder pattern
+		-prototype pattern
+		
+	Behavioral Design Pattern
+		-Observer Pattern
+		-strategy pattern
+		-state pattern
+		-commmand pattern
+		-Template pattern
+	Structural Design Pattern
+		-Bridge Pattern
+		-Composite pattern
+		-Decorator Pattern
+		-Facade Pattern
+		-Proxy pattern
+		-Flyweight pattern
+	
