@@ -18,3 +18,12 @@
 		-Copy Constructor
 		-Move Constructor
 	-Destructors
+	
+	--Structure
+	--ENUM
+	
+	Smart Pointers
+	
+	- unique_ptr
+	- shared_ptr
+	- Weak_ptr
