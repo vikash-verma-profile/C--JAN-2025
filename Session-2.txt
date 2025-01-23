@@ -56,4 +56,11 @@
 		-Facade Pattern
 		-Proxy pattern
 		-Flyweight pattern
+		
+		
+		Adapter Design Pattern
+			-Target Interface==> Shape (Iterface)
+			-Adaptee=> Rectange
+			=> Adapter=> Rectange compartiable with shape
+			
 	
